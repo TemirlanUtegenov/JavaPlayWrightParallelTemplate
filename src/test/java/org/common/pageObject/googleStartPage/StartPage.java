@@ -1,7 +1,7 @@
-package org.webPageTests.googleStartPage;
+package org.common.pageObject.googleStartPage;
 
 import com.microsoft.playwright.Page;
-import org.webPageTests.BasePage;
+import org.common.pageObject.BasePage;
 
 public class StartPage extends BasePage {
     // Locators

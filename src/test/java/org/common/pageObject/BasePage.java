@@ -1,4 +1,4 @@
-package org.webPageTests;
+package org.common.pageObject;
 
 import com.microsoft.playwright.Page;
 import org.common.handlers.PathHandler;
