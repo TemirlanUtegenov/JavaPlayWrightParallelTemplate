@@ -21,7 +21,6 @@ public class BaseUiScript {
 
     protected BrowserContext context;
     protected Page page;
-    protected String userId, email, name, password;
 
     protected Browser.NewContextOptions setContextOptions() {
         contextOptions = new Browser.NewContextOptions();

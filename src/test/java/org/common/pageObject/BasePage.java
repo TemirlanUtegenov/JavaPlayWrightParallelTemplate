@@ -38,6 +38,11 @@ public class BasePage {
         return this;
     }
 
+    public BasePage keyStroke(String key){
+        page.keyboard().press(key);
+        return this;
+    }
+
     public void navigateToGoogleStartPage(PathHandler pathHandler) {
         page.navigate(pathHandler.getBaseWebAppUrl());
     }
